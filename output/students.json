@@ -1,0 +1,256 @@
+[
+  {
+    "id": "S001",
+    "firstName": "Вадим",
+    "lastName": "Бойко",
+    "birthDate": "2006-03-14T00:00:00.000",
+    "enrollmentYear": 2023,
+    "enrolledCourses": [
+      "CS101",
+      "CS102",
+      "CS201"
+    ],
+    "grades": {
+      "CS101": 92.0,
+      "CS102": 85.0,
+      "CS201": 78.0
+    },
+    "skills": [
+      "dart",
+      "flutter",
+      "git"
+    ]
+  },
+  {
+    "id": "S002",
+    "firstName": "Олена",
+    "lastName": "Мельник",
+    "birthDate": "2005-11-02T00:00:00.000",
+    "enrollmentYear": 2023,
+    "enrolledCourses": [
+      "CS101",
+      "CS102",
+      "MA101"
+    ],
+    "grades": {
+      "CS101": 88.0,
+      "CS102": 74.0,
+      "MA101": 91.0
+    },
+    "skills": [
+      "python",
+      "sql"
+    ]
+  },
+  {
+    "id": "S003",
+    "firstName": "Андрій",
+    "lastName": "Ковальчук",
+    "birthDate": "2006-07-21T00:00:00.000",
+    "enrollmentYear": 2024,
+    "enrolledCourses": [
+      "CS101",
+      "MA101"
+    ],
+    "grades": {
+      "CS101": 55.0,
+      "MA101": 62.0
+    },
+    "skills": [
+      "git",
+      "java"
+    ]
+  },
+  {
+    "id": "S004",
+    "firstName": "Марія",
+    "lastName": "Шевченко",
+    "birthDate": "2005-01-30T00:00:00.000",
+    "enrollmentYear": 2023,
+    "enrolledCourses": [
+      "CS101",
+      "CS102",
+      "CS201",
+      "DB201"
+    ],
+    "grades": {
+      "CS101": 97.0,
+      "CS102": 94.0,
+      "CS201": 90.0,
+      "DB201": 88.0
+    },
+    "skills": [
+      "dart",
+      "figma",
+      "ux"
+    ]
+  },
+  {
+    "id": "S005",
+    "firstName": "Ігор",
+    "lastName": "Бондаренко",
+    "birthDate": "2004-09-09T00:00:00.000",
+    "enrollmentYear": 2022,
+    "enrolledCourses": [
+      "CS101",
+      "MA101",
+      "DB201"
+    ],
+    "grades": {
+      "CS101": 71.0,
+      "MA101": 58.0,
+      "DB201": 66.0
+    },
+    "skills": [
+      "c++",
+      "git",
+      "linux"
+    ]
+  },
+  {
+    "id": "S006",
+    "firstName": "Софія",
+    "lastName": "Ткаченко",
+    "birthDate": "2006-05-17T00:00:00.000",
+    "enrollmentYear": 2024,
+    "enrolledCourses": [
+      "CS101",
+      "CS102"
+    ],
+    "grades": {
+      "CS101": 83.0,
+      "CS102": 79.0
+    },
+    "skills": [
+      "figma",
+      "flutter"
+    ]
+  },
+  {
+    "id": "S007",
+    "firstName": "Дмитро",
+    "lastName": "Кравчук",
+    "birthDate": "2005-12-25T00:00:00.000",
+    "enrollmentYear": 2023,
+    "enrolledCourses": [
+      "CS101",
+      "CS102",
+      "DB201"
+    ],
+    "grades": {
+      "CS101": 64.0,
+      "CS102": 61.0,
+      "DB201": 59.0
+    },
+    "skills": [
+      "git",
+      "python",
+      "sql"
+    ]
+  },
+  {
+    "id": "S008",
+    "firstName": "Анна",
+    "lastName": "Олійник",
+    "birthDate": "2004-04-04T00:00:00.000",
+    "enrollmentYear": 2022,
+    "enrolledCourses": [
+      "CS101",
+      "CS102",
+      "CS201",
+      "DB201"
+    ],
+    "grades": {
+      "CS101": 90.0,
+      "CS102": 87.0,
+      "CS201": 84.0,
+      "DB201": 93.0
+    },
+    "skills": [
+      "dart",
+      "kotlin",
+      "sql"
+    ]
+  },
+  {
+    "id": "S009",
+    "firstName": "Максим",
+    "lastName": "Савченко",
+    "birthDate": "2006-08-12T00:00:00.000",
+    "enrollmentYear": 2024,
+    "enrolledCourses": [
+      "CS101",
+      "MA101"
+    ],
+    "grades": {
+      "CS101": 48.0,
+      "MA101": 70.0
+    },
+    "skills": [
+      "git",
+      "js"
+    ]
+  },
+  {
+    "id": "S010",
+    "firstName": "Юлія",
+    "lastName": "Гриценко",
+    "birthDate": "2005-06-06T00:00:00.000",
+    "enrollmentYear": 2023,
+    "enrolledCourses": [
+      "CS101",
+      "CS102",
+      "MA101"
+    ],
+    "grades": {
+      "CS101": 95.0,
+      "CS102": 89.0,
+      "MA101": 97.0
+    },
+    "skills": [
+      "ml",
+      "python"
+    ]
+  },
+  {
+    "id": "S011",
+    "firstName": "Тарас",
+    "lastName": "Лисенко",
+    "birthDate": "2004-02-19T00:00:00.000",
+    "enrollmentYear": 2022,
+    "enrolledCourses": [
+      "CS101",
+      "DB201",
+      "CS201"
+    ],
+    "grades": {
+      "CS101": 76.0,
+      "DB201": 81.0,
+      "CS201": 69.0
+    },
+    "skills": [
+      "go",
+      "linux",
+      "sql"
+    ]
+  },
+  {
+    "id": "S012",
+    "firstName": "Катерина",
+    "lastName": "Руденко",
+    "birthDate": "2006-10-28T00:00:00.000",
+    "enrollmentYear": 2024,
+    "enrolledCourses": [
+      "CS101",
+      "MA101"
+    ],
+    "grades": {
+      "CS101": 86.0,
+      "MA101": 77.0
+    },
+    "skills": [
+      "figma",
+      "ux"
+    ]
+  }
+]
