@@ -52,7 +52,7 @@ class TextAnalyzer {
       charactersNoSpaces: text.replaceAll(RegExp(r'\s'), '').length,
       words: words.length,
       sentences: RegExp(r'[.!?]+').allMatches(text).length,
-      lines: text.isEmpty ? 0 : text.split('\n').length,
+      lines: text.trim().isEmpty ? 0 : text.trimRight().split('\n').length,
       averageWordLength: words.isEmpty ? 0 : totalLetters / words.length,
       longestWord: longest,
       topWords: {for (final e in sorted.take(top)) e.key: e.value},

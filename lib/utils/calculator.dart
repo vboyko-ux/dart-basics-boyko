@@ -19,7 +19,7 @@ class Calculator {
     return math.sqrt(x);
   }
 
-  /// Виконує операцію за символом: + - * / ^ (для демо консольного калькулятора).
+  /// Виконує операцію за символом: + - * / % ^ (для демо консольного калькулятора).
   double calculate(double a, String op, double b) {
     switch (op) {
       case '+':
@@ -32,6 +32,9 @@ class Calculator {
         return divide(a, b);
       case '^':
         return power(a, b);
+      case '%':
+        if (b == 0) throw ArgumentError('Остача від ділення на нуль');
+        return a % b;
       default:
         throw FormatException('Невідома операція: $op');
     }
