@@ -1,0 +1,127 @@
+{
+  "statistics": {
+    "university": "Інститут сучасних технологій",
+    "students": 12,
+    "professors": 0,
+    "courses": 5,
+    "averageGpa": 77.12,
+    "bestStudent": "Гриценко Юлія",
+    "totalEnrollments": 34
+  },
+  "courses": [
+    {
+      "course": "Основи програмування",
+      "instructor": "Клименко",
+      "enrolled": 12,
+      "passed": 10,
+      "passRate": 83.3,
+      "averageGrade": 78.75
+    },
+    {
+      "course": "Структури даних",
+      "instructor": "Клименко",
+      "enrolled": 7,
+      "passed": 7,
+      "passRate": 100.0,
+      "averageGrade": 81.29
+    },
+    {
+      "course": "Мобільна розробка",
+      "instructor": "Клименко",
+      "enrolled": 4,
+      "passed": 4,
+      "passRate": 100.0,
+      "averageGrade": 80.25
+    },
+    {
+      "course": "Бази даних",
+      "instructor": "Клименко",
+      "enrolled": 5,
+      "passed": 4,
+      "passRate": 80.0,
+      "averageGrade": 77.4
+    },
+    {
+      "course": "Дискретна математика",
+      "instructor": "Клименко",
+      "enrolled": 6,
+      "passed": 5,
+      "passRate": 83.3,
+      "averageGrade": 75.83
+    }
+  ],
+  "ranking": [
+    {
+      "rank": 1,
+      "id": "S010",
+      "name": "Гриценко Юлія",
+      "gpa": 93.67
+    },
+    {
+      "rank": 2,
+      "id": "S004",
+      "name": "Шевченко Марія",
+      "gpa": 92.25
+    },
+    {
+      "rank": 3,
+      "id": "S008",
+      "name": "Олійник Анна",
+      "gpa": 88.5
+    },
+    {
+      "rank": 4,
+      "id": "S001",
+      "name": "Бойко Вадим",
+      "gpa": 85.0
+    },
+    {
+      "rank": 5,
+      "id": "S002",
+      "name": "Мельник Олена",
+      "gpa": 84.33
+    },
+    {
+      "rank": 6,
+      "id": "S012",
+      "name": "Руденко Катерина",
+      "gpa": 81.5
+    },
+    {
+      "rank": 7,
+      "id": "S006",
+      "name": "Ткаченко Софія",
+      "gpa": 81.0
+    },
+    {
+      "rank": 8,
+      "id": "S011",
+      "name": "Лисенко Тарас",
+      "gpa": 75.33
+    },
+    {
+      "rank": 9,
+      "id": "S005",
+      "name": "Бондаренко Ігор",
+      "gpa": 65.0
+    },
+    {
+      "rank": 10,
+      "id": "S007",
+      "name": "Кравчук Дмитро",
+      "gpa": 61.33
+    },
+    {
+      "rank": 11,
+      "id": "S009",
+      "name": "Савченко Максим",
+      "gpa": 59.0
+    },
+    {
+      "rank": 12,
+      "id": "S003",
+      "name": "Ковальчук Андрій",
+      "gpa": 58.5
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# id,firstName,lastName,birthDate,year,skills(;),courses(;),grades(course:grade;)
+id,firstName,lastName,birthDate,year,skills,courses,grades
+S001,Вадим,Бойко,2006-03-14,2023,dart;flutter;git,CS101;CS102;CS201,CS101:92;CS102:85;CS201:78
+S002,Олена,Мельник,2005-11-02,2023,python;sql,CS101;CS102;MA101,CS101:88;CS102:74;MA101:91
+S003,Андрій,Ковальчук,2006-07-21,2024,java;git,CS101;MA101,CS101:55;MA101:62
+S004,Марія,Шевченко,2005-01-30,2023,dart;ux;figma,CS101;CS102;CS201;DB201,CS101:97;CS102:94;CS201:90;DB201:88
+S005,Ігор,Бондаренко,2004-09-09,2022,c++;git;linux,CS101;MA101;DB201,CS101:71;MA101:58;DB201:66
+S006,Софія,Ткаченко,2006-05-17,2024,flutter;figma,CS101;CS102,CS101:83;CS102:79
+S007,Дмитро,Кравчук,2005-12-25,2023,sql;python;git,CS101;CS102;DB201,CS101:64;CS102:61;DB201:59
+S008,Анна,Олійник,2004-04-04,2022,dart;kotlin;sql,CS101;CS102;CS201;DB201,CS101:90;CS102:87;CS201:84;DB201:93
+S009,Максим,Савченко,2006-08-12,2024,js;git,CS101;MA101,CS101:48;MA101:70
+S010,Юлія,Гриценко,2005-06-06,2023,python;ml,CS101;CS102;MA101,CS101:95;CS102:89;MA101:97
+S011,Тарас,Лисенко,2004-02-19,2022,go;linux;sql,CS101;DB201;CS201,CS101:76;DB201:81;CS201:69
+S012,Катерина,Руденко,2006-10-28,2024,figma;ux,CS101;MA101,CS101:86;MA101:77
