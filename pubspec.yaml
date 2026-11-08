@@ -1,0 +1,15 @@
+name: dart_basics_boyko
+description: Практична робота 4 "Основи мови Dart" - система управління університетом, обробка даних, асинхронний ввід/вивід.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  path: ^1.9.0
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.25.0
+  coverage: ^1.9.0

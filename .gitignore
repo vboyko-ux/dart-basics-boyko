@@ -1,0 +1,12 @@
+# Dart / pub
+.dart_tool/
+.packages
+build/
+pubspec.lock
+
+# Покриття тестами (генерується командою з README)
+coverage/
+
+# Тимчасові результати запусків (зразки в docs/ і data/ зберігаються)
+output/tmp/
+*.log
