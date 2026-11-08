@@ -119,9 +119,8 @@ class University {
     final avgGpa = graded.isEmpty
         ? 0.0
         : graded.map((s) => s.gpa).reduce((a, b) => a + b) / graded.length;
-    final best = graded.isEmpty
-        ? null
-        : graded.reduce((a, b) => a.gpa >= b.gpa ? a : b);
+    final best =
+        graded.isEmpty ? null : graded.reduce((a, b) => a.gpa >= b.gpa ? a : b);
     return {
       'university': name,
       'students': students.length,

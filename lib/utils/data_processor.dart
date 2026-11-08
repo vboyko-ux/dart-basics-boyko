@@ -89,7 +89,8 @@ class DataProcessor {
             'passed': passed,
             'passRate': enrolled.isEmpty
                 ? 0.0
-                : double.parse((passed / enrolled.length * 100).toStringAsFixed(1)),
+                : double.parse(
+                    (passed / enrolled.length * 100).toStringAsFixed(1)),
             'averageGrade': avgByCourse[course.id],
           };
         }()
@@ -110,7 +111,8 @@ class DataProcessor {
     for (final line in lines.skip(1)) {
       final f = line.split(',');
       if (f.length < 8) {
-        throw FormatException('Некоректний рядок CSV (очікується 8 полів): $line');
+        throw FormatException(
+            'Некоректний рядок CSV (очікується 8 полів): $line');
       }
       final courses = _splitList(f[6]);
       final grades = <String, double>{};
@@ -132,9 +134,6 @@ class DataProcessor {
     return students;
   }
 
-  static List<String> _splitList(String raw) => raw
-      .split(';')
-      .map((s) => s.trim())
-      .where((s) => s.isNotEmpty)
-      .toList();
+  static List<String> _splitList(String raw) =>
+      raw.split(';').map((s) => s.trim()).where((s) => s.isNotEmpty).toList();
 }
